@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লিংকড লিস্ট ভিজুয়ালাইজার</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-grid"></div>
+
+<div class="page">
+    <header class="hero">
+        <div class="hero-tag">C++ &nbsp;&middot;&nbsp; ডেটা স্ট্রাকচার</div>
+        <h1 class="hero-title">লিংকড লিস্ট<br><span class="hero-accent">ভিজুয়ালাইজার</span></h1>
+        <p class="hero-sub">প্রতিটি অপারেশন ধাপে ধাপে দেখো। পয়েন্টার কীভাবে কাজ করে তা অ্যানিমেশনে বোঝো।</p>
+    </header>
+
+    <div class="grid">
+        <a class="card card--pf" href="push_front/push_front.html">
+            <div class="card-top">
+                <span class="card-complexity complexity--fast">O(1)</span>
+            </div>
+            <div class="card-fn">push_front()</div>
+            <p class="card-desc">লিস্টের শুরুতে নতুন নোড যোগ করো। <code>head</code> পয়েন্টার আপডেট করেই কাজ শেষ।</p>
+            <div class="card-footer">
+                <span class="card-steps">৪টি ধাপ</span>
+                <span class="card-arrow">&#8594;</span>
+            </div>
+        </a>
+
+        <a class="card card--pb" href="push_back/push_back.html">
+            <div class="card-top">
+                <span class="card-complexity complexity--fast">O(1)</span>
+            </div>
+            <div class="card-fn">push_back()</div>
+            <p class="card-desc">লিস্টের শেষে নতুন নোড যোগ করো। <code>tail</code> পয়েন্টার থাকায় পুরো লিস্ট দেখতে হয় না।</p>
+            <div class="card-footer">
+                <span class="card-steps">৫টি ধাপ</span>
+                <span class="card-arrow">&#8594;</span>
+            </div>
+        </a>
+
+        <a class="card card--pof" href="pop_front/pop_front.html">
+            <div class="card-top">
+                <span class="card-complexity complexity--fast">O(1)</span>
+            </div>
+            <div class="card-fn">pop_front()</div>
+            <p class="card-desc">লিস্টের প্রথম নোড মুছে ফেলো। <code>head</code> সরিয়ে পুরনো নোড <code>delete</code> করো।</p>
+            <div class="card-footer">
+                <span class="card-steps">৬টি ধাপ</span>
+                <span class="card-arrow">&#8594;</span>
+            </div>
+        </a>
+
+        <a class="card card--pob" href="pop_back/pop_back.html">
+            <div class="card-top">
+                <span class="card-complexity complexity--slow">O(N)</span>
+            </div>
+            <div class="card-fn">pop_back()</div>
+            <p class="card-desc">লিস্টের শেষ নোড মুছে ফেলো। আগের নোড খুঁজে পেতে পুরো লিস্ট দেখতে হয়।</p>
+            <div class="card-footer">
+                <span class="card-steps">৭টি ধাপ</span>
+                <span class="card-arrow">&#8594;</span>
+            </div>
+        </a>
+    </div>
+
+    <footer class="foot">লিংকড লিস্ট ভিজুয়ালাইজার &mdash; বাংলায় ডেটা স্ট্রাকচার শেখো</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

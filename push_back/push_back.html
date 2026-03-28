@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>push_back() — লিংকড লিস্ট</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .viz-page.theme-pb { --c-accent: #fb923c; --c-glow: rgba(251,146,60,0.28); }
+    </style>
+</head>
+<body class="viz-page theme-pb">
+<div class="viz-wrap">
+    <nav class="top-nav">
+        <a class="nav-back" href="../index.html">&#8592; মেইন মেনু</a>
+        <span class="nav-title">push_back()</span>
+        <span class="nav-badge badge-o1">O(1) সময়</span>
+    </nav>
+    <div class="viz-main">
+        <div class="stepper" id="stepper"></div>
+        <div class="vis-box" id="vis"></div>
+        <div class="info-grid">
+            <div class="desc-card">
+                <h4>কী ঘটছে?</h4>
+                <div id="desc-text"></div>
+            </div>
+            <div class="code-card" id="code-view"></div>
+        </div>
+        <div class="nav-controls">
+            <div class="btn-group">
+                <button class="btn btn-prev" onclick="prev()" id="prevBtn">&#8592; আগে</button>
+                <button class="btn btn-next" onclick="next()" id="nextBtn">পরের ধাপ &#8594;</button>
+            </div>
+            <button class="btn btn-reset" onclick="reset()">&#8635; রিসেট</button>
+        </div>
+    </div>
+</div>
+<script src="push_back.js"></script>
+</body>
+</html>
